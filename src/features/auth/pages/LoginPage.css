@@ -1,0 +1,357 @@
+.login-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(430px, 0.82fr);
+  min-height: 100vh;
+  color: #243b3b;
+  background: #fffdf8;
+}
+
+.login-story {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 34px clamp(28px, 6vw, 88px) 28px;
+  background: #f7f4ed;
+}
+
+.login-brand,
+.login-mobile-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #243b3b;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login-brand-mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  color: #fffaf0;
+  background: #df6b43;
+  border-radius: 12px 4px 12px 4px;
+  font-size: 20px;
+}
+
+.login-story-copy {
+  z-index: 1;
+  width: min(100%, 510px);
+  margin: auto 0 0;
+  padding-top: 65px;
+}
+
+.login-eyebrow {
+  color: #bd6945;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.login-story-copy h1 {
+  margin: 15px 0 17px;
+  color: #243b3b;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(44px, 5vw, 68px);
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 1.06;
+}
+
+.login-story-copy h1 em {
+  color: #df6b43;
+  font-weight: 400;
+}
+
+.login-story-copy p {
+  max-width: 420px;
+  margin: 0;
+  color: #718080;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.login-book-art {
+  position: relative;
+  min-height: 290px;
+  flex: 1;
+  margin: 14px -12px 0;
+}
+
+.login-art-sun {
+  position: absolute;
+  top: 26px;
+  left: 27%;
+  width: min(310px, 56vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #f2d7b8;
+}
+
+.login-art-book {
+  position: absolute;
+  right: 20%;
+  bottom: 45px;
+  width: min(300px, 50vw);
+  height: 58px;
+  border-radius: 4px 11px 11px 4px;
+  box-shadow: 9px 12px 0 rgb(36 59 59 / 8%);
+}
+
+.login-art-book-back {
+  right: 25%;
+  bottom: 148px;
+  background: #7d9d94;
+  transform: rotate(-12deg);
+}
+
+.login-art-book-middle {
+  right: 13%;
+  bottom: 103px;
+  background: #e2a76f;
+  transform: rotate(9deg);
+}
+
+.login-art-book-front {
+  display: grid;
+  height: 76px;
+  place-items: center;
+  color: #f6e7cd;
+  background: #df6b43;
+  font-size: 34px;
+  transform: rotate(-5deg);
+}
+
+.login-art-note {
+  position: absolute;
+  right: 2%;
+  bottom: 176px;
+  color: #bd6945;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.2;
+  transform: rotate(8deg);
+}
+
+.login-story-footer {
+  margin: 0;
+  color: #8b9894;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.login-panel {
+  display: grid;
+  place-items: center;
+  padding: 42px clamp(28px, 6vw, 92px);
+  background: #fffdf8;
+}
+
+.login-form-wrap {
+  width: min(100%, 410px);
+}
+
+.login-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 68px;
+  color: #718080;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.login-back-link:hover {
+  color: #df6b43;
+}
+
+.login-mobile-brand {
+  display: none;
+}
+
+.login-heading {
+  margin-bottom: 30px;
+}
+
+.login-heading-icon {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 25px;
+  place-items: center;
+  color: #df6b43;
+  background: #fbede2;
+  border-radius: 14px;
+  font-size: 18px;
+}
+
+.login-heading h2 {
+  margin: 8px 0 7px;
+  color: #243b3b;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+}
+
+.login-heading p {
+  margin: 0;
+  color: #718080;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.login-form .ant-form-item {
+  margin-bottom: 21px;
+}
+
+.login-form .ant-form-item-label > label {
+  color: #344a49;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login-form .ant-input-affix-wrapper,
+.login-form .ant-input {
+  border-color: #e5e8e2;
+  border-radius: 8px;
+}
+
+.login-form .ant-input-affix-wrapper {
+  min-height: 48px;
+}
+
+.login-form .ant-input-prefix {
+  margin-right: 10px;
+  color: #98a49f;
+}
+
+.login-form .ant-input::placeholder {
+  color: #a3ada8;
+}
+
+.login-form .ant-input-affix-wrapper-focused,
+.login-form .ant-input-affix-wrapper:focus {
+  border-color: #df6b43;
+  box-shadow: 0 0 0 2px rgb(223 107 67 / 12%);
+}
+
+.login-notice {
+  margin: 2px 0 18px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.login-submit {
+  display: inline-flex;
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 7px;
+  border-radius: 8px;
+  background: #df6b43;
+  box-shadow: none;
+  font-weight: 600;
+}
+
+.login-submit:hover {
+  background: #c95c38 !important;
+}
+
+.login-form-footer {
+  margin: 26px 0 0;
+  color: #8b9894;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.login-form-footer a {
+  color: #bd6945;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .login-page {
+    grid-template-columns: minmax(0, 0.9fr) minmax(380px, 1fr);
+  }
+
+  .login-story {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .login-story-copy h1 {
+    font-size: 48px;
+  }
+
+  .login-panel {
+    padding-right: 34px;
+    padding-left: 34px;
+  }
+
+  .login-back-link {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .login-page {
+    display: block;
+    min-height: 100vh;
+  }
+
+  .login-story {
+    display: none;
+  }
+
+  .login-panel {
+    min-height: 100vh;
+    align-items: start;
+    padding: 25px 24px 40px;
+  }
+
+  .login-form-wrap {
+    width: min(100%, 430px);
+    margin: 0 auto;
+  }
+
+  .login-back-link {
+    margin-bottom: 36px;
+  }
+
+  .login-mobile-brand {
+    display: flex;
+    margin-bottom: 44px;
+    font-size: 18px;
+  }
+
+  .login-mobile-brand .anticon {
+    color: #df6b43;
+  }
+
+  .login-heading-icon {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .login-panel {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .login-heading h2 {
+    font-size: 34px;
+  }
+}
